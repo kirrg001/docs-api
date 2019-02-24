@@ -39,7 +39,7 @@ If you want to modify the default markup of the navigation helper, this can be a
     <ul class="nav">
         <!-- Loop through the navigation items -->
         {{#foreach navigation}}
-        <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute=true}}">{{label}}</a></li>
         {{/foreach}}
         <!-- End the loop -->
     </ul>
